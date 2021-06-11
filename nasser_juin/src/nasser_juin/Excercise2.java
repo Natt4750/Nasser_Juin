@@ -13,7 +13,7 @@ public class Excercise2 {
 		BufferedReader entree;
 		int c;
 		
-		ficALire=new FileReader("monFichier.txt");
+		ficALire=new FileReader("monCalcul.txt");
 		entree = new BufferedReader(ficALire);
 		c=(char) entree.read();
 		

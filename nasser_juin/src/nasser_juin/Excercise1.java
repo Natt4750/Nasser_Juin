@@ -16,29 +16,36 @@ public class Excercise1
          int total = 0;
          String line;
          char find = 'A';
-
+         
 			 
          
 				 while (true) 
 				 {
 			            line = entree.readLine();
+			            
 			            if(line == null) 
 			            {
 			                break;
 			            } 
-			            else 
-			            	if(line.equals(find)) 
-			            {
-			                total = total+1;
+			             
+			            	
+			            for(char character : line.toCharArray())
+			            { 
+					            	if(character == find) 
+					            {
+					                total = total+1;
+
+					            }
+									
+									 System.out.println(total);
+
 			            }
+
 			        }
-			 
 			  
          
-         System.out.println(total);
         
     }
-	
 	
 
 
