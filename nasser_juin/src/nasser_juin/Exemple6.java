@@ -8,7 +8,7 @@ public class Exemple6 {
 	public static void main(String[] args) 
 	{
 		String Fichier="Ecrire.txt";
-		final String s1 = "Voice ce que je voudrais";
+		final String s1 = "bonc ce que je voudrais";
 		final String s2= " ecrire et vous faire comprendre";
 		
 		FileWriter ficAEcrire;
