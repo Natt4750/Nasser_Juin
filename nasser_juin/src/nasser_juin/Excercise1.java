@@ -15,7 +15,7 @@ public class Excercise1
          
          int total = 0;
          String line;
-         char find = 'A';
+         char find = 'a';
          
 			 
          
@@ -37,12 +37,12 @@ public class Excercise1
 
 					            }
 									
-									 System.out.println(total);
 
 			            }
 
 			        }
-			  
+				 System.out.println(total);
+
          
         
     }
